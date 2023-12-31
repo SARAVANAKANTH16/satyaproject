@@ -1,0 +1,36 @@
+                Min and max heap
+
+Min heap: In the given almost complete binary tree or actual complete binary tree at 
+every node is minimum or equal compared with its children ,then it is heap
+
+Max heap: In the given cbt or acbt at every node root is maximum or equal compared with its
+children than it is max heap
+
+min ->root is smaller than child 
+max->root is larger than child
+
+Array representation of max heap tree
+left child = 2i
+right child =2i+1
+parent - i/2
+
+properties of complete binary tree
+-----------------------------------
+Height of Node= Max distance of that node to the leaf
+Height of tree=Height of root node
+Max number of nodes in CBT for height(h):
+
+max node = 2^h+1-1
+
+Min height for nodes(n) in cbt
+
+min height=floor(logn)
+
+
+ for nodes(n):
+. 1 to floor(n/2) are non -leaf
+. floor(n/2)+1 to n are leaves
+
+in heapify it check the left child and right child with root if root is smaller then
+swap is done
+
